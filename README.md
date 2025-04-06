@@ -24,3 +24,6 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 bash run_r2r.sh 8001  # R2R
 CUDA_VISIBLE_DEVICES=0,1,2,3 bash scripts/r4r_b16.sh 8001  # R4R
 CUDA_VISIBLE_DEVICES=0,1,2,3 bash scripts/r2r_b16.sh 8001  # R2R
 ```
+
+## RxR
+Please see APAF_RxR/README.md.
