@@ -501,25 +501,17 @@ class GMapNavAgent(Seq2SeqAgent):
                 
         
     def _calculate_heading_and_elevation(self, pointA, pointB, heading, evalation):
-        # 解构坐标
         x, y, z= pointA[0], pointA[1], pointA[2]
         x1, y1, z1 = pointB[0], pointB[1], pointB[2]
         
 
-        # 计算差向量
         delta_x = x1 - x
         delta_y = y1 - y
         delta_z = z1 - z
 
-        # 计算朝向角 (Heading) - 以y轴正方向为0度，向x轴正方向为正
         theta_heading = int(np.degrees(np.arctan2(delta_x, delta_y)))
         rel_heading = (theta_heading - heading + 360) % 360
-        # if rel_heading>178:
-        #     rel_heading-=360
-            
-        # 计算水平距离d_xy
         d_xy = np.sqrt(delta_x**2 + delta_y**2)
-        # 计算仰角 (Elevation) - 水平面至点B的角度
         theta_elevation = int(np.degrees(np.arctan2(delta_z, d_xy)))
         rel_elevation = max(-30, min(theta_elevation - evalation, 29))
         return rel_heading, rel_elevation
