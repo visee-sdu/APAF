@@ -9,9 +9,9 @@
 
 3. Download object features [here](https://huggingface.co/datasets/bowen666212/APAF_object_features).
 
-4. Download datasets of R2R and R4R [here](https://huggingface.co/datasets/bowen666212/APAF). It contains a *datasets* folder.
+4. Download datasets of R2R and R4R [here](https://huggingface.co/datasets/bowen666212/APAF_R2R_R4R). It contains a *datasets* folder.
 
-5. (Optional). Download the trained model [here](https://huggingface.co/bowen666212/APAF)
+5. (Optional). Download the trained model [here](https://huggingface.co/bowen666212/APAF).
 
 ## Pre-training
 ```
