@@ -37,8 +37,8 @@ flag="--root_dir ${DATA_ROOT}
 
       --batch_size 1
       --lr 1e-5
-      --iters 100000
-      --log_every 1000
+      --iters 200000
+      --log_every 500
       --optim adamW
 
       --features ${features}
