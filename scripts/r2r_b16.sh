@@ -40,7 +40,7 @@ flag="--root_dir ${DATA_ROOT}
 
       --batch_size ${bs}
       --lr 1e-5
-      --iters 100000
+      --iters 200000
       --log_every 500
       --aug_times 9
 
