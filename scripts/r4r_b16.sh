@@ -9,7 +9,7 @@ obj_ft_dim=0
 
 ngpus=4
 bs=6
-seed=3407
+seed=0
 
 object_dim=512
 name=xxx
