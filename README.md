@@ -26,4 +26,7 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 bash scripts/r2r_b16.sh 8001  # R2R
 ```
 
 ## RxR
-Please see APAF_RxR/README.md.
+Please see `APAF_RxR/README.md`.
+
+## Acknowledgement
+Codebase from [ScaleVLN](https://github.com/wz0919/ScaleVLN), [BEVBert](https://github.com/MarSaKi/VLN-BEVBert) and [DUET](https://github.com/cshizhe/VLN-DUET).
