@@ -1,6 +1,6 @@
 
 NODE_RANK=0
-NUM_GPUS=2
+NUM_GPUS=4
 outdir=../datasets/R2R/exprs_map/pretrain/r2r_b16
 
 # train
