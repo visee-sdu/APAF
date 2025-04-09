@@ -8,8 +8,7 @@ obj_features=vitbase
 obj_ft_dim=0
 
 ngpus=4
-bs=6
-seed=0
+bs=4
 
 object_dim=512
 name=xxx
@@ -34,7 +33,7 @@ flag="--root_dir ${DATA_ROOT}
       --num_x_layers 4
       --num_pano_layers 2
       
-      --max_action_len 15
+      --max_action_len 20
       --max_instr_len 200
 
       --batch_size ${bs}
