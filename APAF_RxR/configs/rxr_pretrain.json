@@ -22,7 +22,6 @@
     "weight_decay": 0.01,
     "grad_norm": 5.0,
     "warmup_steps": 10000,
-    "seed": 0,
     "fp16": false,
     "n_workers": 4,
     "pin_mem": true,
