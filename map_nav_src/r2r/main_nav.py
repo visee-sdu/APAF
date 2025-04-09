@@ -398,6 +398,7 @@ def main():
     else:
         rank = 0
 
+    args.seed = int(time.time())
     set_random_seed(args.seed + rank)
     train_env, val_envs, aug_env = build_dataset(args, rank=rank, is_test=args.test)
 
