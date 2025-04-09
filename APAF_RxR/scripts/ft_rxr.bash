@@ -8,7 +8,6 @@ obj_features=vitbase
 obj_ft_dim=0
 
 ngpus=4
-seed=0
 object_dim=512
 name=xxx
 
