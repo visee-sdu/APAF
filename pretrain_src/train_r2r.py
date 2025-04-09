@@ -77,7 +77,7 @@ def main(opts):
             )
         )
  
-    seed = opts.seed
+    seed = int(time.time())
     if opts.local_rank != -1:
         seed += opts.rank
     set_random_seed(seed)
