@@ -17,7 +17,6 @@ flag="--root_dir ${DATA_ROOT}
       --dataset rxr
       --output_dir ${outdir}
       --world_size ${ngpus}
-      --seed ${seed}
       --tokenizer xlm 
           
       --enc_full_graph
