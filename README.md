@@ -7,11 +7,11 @@
 
 2. Install Matterport3D simulators: follow instructions [here](https://github.com/peteanderson80/Matterport3DSimulator).
 
-3. Download object features [here](https://huggingface.co/datasets/bowen666212/APAF_object_features).
+3. Download object features [here](https://huggingface.co/datasets/bowen666212/APAF_object_features/tree/main).
 
-4. Download datasets of R2R and R4R [here](https://huggingface.co/datasets/bowen666212/APAF_R2R_R4R). It contains a *datasets* folder.
+4. Download datasets of R2R and R4R [here](https://huggingface.co/datasets/bowen666212/APAF_R2R_R4R/tree/main). It contains a *datasets* folder.
 
-5. (Optional). Download the trained model [here](https://huggingface.co/bowen666212/APAF).
+5. (Optional). Download the trained model [here](https://huggingface.co/bowen666212/APAF_trained_model/tree/main).
 
 ## Pre-training
 ```
