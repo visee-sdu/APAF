@@ -9,7 +9,7 @@ from tensorboardX import SummaryWriter
 
 import sys
 
-print(os.getcwd())  # 
+# print(os.getcwd())  # 
 _path = os.path.join(os.getcwd(), 'map_nav_src')
 sys.path.append(_path)
 # sys.path.append(os.getcwd())
