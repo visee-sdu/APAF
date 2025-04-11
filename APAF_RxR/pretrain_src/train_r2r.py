@@ -525,5 +525,6 @@ def build_args():
     return opts
 
 if __name__ == '__main__':
+    # log
     args = build_args()
     main(args)
