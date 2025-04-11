@@ -29,9 +29,9 @@ def build_dataset(args, rank=0, is_test=False):
     depth_db = ImageFeaturesDB(args.bev_depth_db)
 
     test_scan, test_viewpoint = 'zsNo4HB9uLZ', '3493ecf114864afc99d568421c0b42f6'
-    print('View feature: ', feat_db.get_image_feature(test_scan, test_viewpoint).shape)
-    print('RGB feature: ', rgb_db.get_image_feature(test_scan, test_viewpoint).shape)
-    print('Depth feature: ', depth_db.get_image_feature(test_scan, test_viewpoint).shape)
+    # print('View feature: ', feat_db.get_image_feature(test_scan, test_viewpoint).shape)
+    # print('RGB feature: ', rgb_db.get_image_feature(test_scan, test_viewpoint).shape)
+    # print('Depth feature: ', depth_db.get_image_feature(test_scan, test_viewpoint).shape)
 
     dataset_class = R2RNavBatch
 
