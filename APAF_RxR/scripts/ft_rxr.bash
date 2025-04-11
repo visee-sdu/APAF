@@ -9,7 +9,7 @@ obj_ft_dim=0
 
 ngpus=4
 object_dim=512
-name=xxx
+name=sample
 
 outdir=snap_ft/rxr/${name}
 
