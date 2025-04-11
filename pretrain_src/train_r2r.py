@@ -459,6 +459,7 @@ def build_args():
     return opts
 
 if __name__ == '__main__':
+    # log 
     args = build_args()
     args.local_rank = int(os.environ["LOCAL_RANK"])
     main(args)
