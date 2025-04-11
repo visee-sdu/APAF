@@ -11,7 +11,7 @@ ngpus=4
 bs=8
 
 object_dim=512
-name=xxx
+name=sample
 
 
 outdir=${DATA_ROOT}/R2R/exprs_map/finetune/${name}
